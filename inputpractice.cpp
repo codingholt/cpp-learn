@@ -3,14 +3,13 @@
 using namespace std;
 
 int main() {
-    cout << "Enter your fahrenheit temprature: ";
+    cout << "Fahrenheit: ";
     double fahrenheit_temp;
 
     cin >> fahrenheit_temp;
     double celsius_temp = (fahrenheit_temp - 32) * 5 / 9;
 
-    cout << fahrenheit_temp << " degrees fahrenheit" << endl
-         << "is the same as: " << celsius_temp << " degrees celsius" << endl;
+    cout << "Celsius: " << celsius_temp << endl;
 
     return 0;
 }
